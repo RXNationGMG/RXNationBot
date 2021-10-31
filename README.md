@@ -37,7 +37,7 @@ NodeJS v12 Install It Here!
 [64 Bit](https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi)
 
 After Installing Node.Js Download This Repository On Your Desktop Or In Your Android Device!
-After Installing The Repository Go to index.js on the very bottom on line 410 & add ur token in there! **DO NOT SHARE IT!!** 
+After Installing The Repository Extract It! And Go to config.js and put ur token in there! **DO NOT SHARE IT CUZ IT WILL LIKELY GO HACKED!** 
 After that add ur prefix In there and after going to config.js go to config.yml for emoji set!
 
 & After that
@@ -71,3 +71,5 @@ Just add your token and your prefix in config.js and go to confg.yml for emoji s
 [Donate Me On PayPal!](https://rxnationgaming.tk/donate)
 
 > Thank U For Using My Repository! Make Sure You Leave A Star On It! tnksss!! <3
+
+**BTW DONT SKID THIS CODE TNKS!**
