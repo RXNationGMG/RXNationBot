@@ -1,6 +1,6 @@
 //Here Is The setup & paste ur token in here tnks :)
 
-exports.TOKEN = "ODE4NDkwMTIwNTcwOTI5MTgy.YEY0Uw.3niAc8zZJO-4YlISBlIYwN7mHV0";
+exports.TOKEN = "YOURTOKEN";
 
 exports.DBL_API_KEY = "NONE";
 
