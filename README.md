@@ -38,7 +38,7 @@ NodeJS v12 Install It Here!
 
 After Installing Node.Js Download This Repository On Your Desktop Or In Your Android Device!
 After Installing The Repository Go to index.js on the very bottom on line 410 & add ur token in there! **DO NOT SHARE IT!!** 
-After going into index.js now go to config.js add ur prefix In there and after going to config.js go to config.yml for emoji set!
+After that add ur prefix In there and after going to config.js go to config.yml for emoji set!
 
 & After that
 
@@ -58,10 +58,7 @@ It may fix the problem I think...
 [![Remix On Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/RXNationGMG/RXNationBot)<br><br>
 [![Host On Repl.it](https://repl.it/badge/github/tzt345/Ultimate-Discord-Bot)](https://replit.com/github/RXNationGMG/RXNationBot)
 
-Just add your token in index.js and go to config.js for prefix and go to confg.yml for emoji set!
-
-# Heroku
-I'll Put This Soon! :)
+Just add your token and your prefix in config.js and go to confg.yml for emoji set!
 
 # Invite My Bot!
 [Invite My Discord Bot Here!](https://discord.com/oauth2/authorize?client_id=818490120570929182&permissions=8&scope=bot)
