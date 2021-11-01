@@ -68,7 +68,7 @@ Just add your token and your prefix in config.js and go to confg.yml for emoji s
 
 [Subscribe To My Youtube Channel!](https://youtube.com/c/RXNationGaming)
 
-[Donate Me On PayPal!](https://rxnationgaming.tk/donate)
+[Donate Me On PayPal!](https://rxnationgaming.cf/donate)
 
 > Thank U For Using My Repository! Make Sure You Leave A Star On It! tnksss!! <3
 
