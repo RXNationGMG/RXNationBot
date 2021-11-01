@@ -21,7 +21,7 @@ const handleVideo = async (video, message, voiceChannel, playlist = false) => {
       voiceChannel: voiceChannel,
       connection: null,
       songs: [],
-      volume: 8,
+      volume: 7,
       playing: true,
       loop: false
     }; 
