@@ -11,11 +11,13 @@ A Discord Bot With 190 or 191 Commands! 🎉
 # Features
 •190 Or 191 Commands!
 
-•Music Bot! [BETA]
+•Music Bot!
 
 •Giveaway Bot!
 
 •NSFW!
+
+•Welcome Channel! [Still Have Bugs]
 
 •New Commands! [Very Soon]
 
@@ -37,7 +39,9 @@ NodeJS v12 Install It Here!
 [64 Bit](https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi)
 
 After Installing Node.Js Download This Repository On Your Desktop Or In Your Android Device!
+
 After Installing The Repository Extract It! And Go to config.js and put ur token in there! **DO NOT SHARE IT CUZ IT WILL LIKELY GO HACKED!** 
+
 After that add ur prefix In there and after going to config.js go to config.yml for emoji set!
 
 & After that
