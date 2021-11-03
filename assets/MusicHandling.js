@@ -46,7 +46,7 @@ const handleVideo = async (video, message, voiceChannel, playlist = false) => {
     else {
       const embed = new MessageEmbed()
         .setAuthor('Song added!')
-        .setDescription(`✅ **${song.title}** has been added to the queue!`)
+        .setDescription(`<a:check:892071687250673664> **${song.title}** has been added to the queue!`)
         .setColor(message.guild.me.roles.highest.color || 0x00AE86);
       return message.channel.send(embed);
     }
