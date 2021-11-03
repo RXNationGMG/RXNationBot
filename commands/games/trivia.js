@@ -69,7 +69,7 @@ module.exports = {
     async function generateClueCard(question) {
       const canvas = createCanvas(1280, 720);
       const ctx = canvas.getContext('2d');
-      ctx.fillStyle = '#05e2ff';
+      ctx.fillStyle = 'RANDOM';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
@@ -79,9 +79,9 @@ module.exports = {
       const topMost = (canvas.height / 2) - (((52 * lines.length) / 2) + ((20 * (lines.length - 1)) / 2));
       for (let i = 0; i < lines.length; i++) {
         const height = topMost + ((52 + 20) * i);
-        ctx.fillStyle = 'black';
+        ctx.fillStyle = 'RANDOM';
         ctx.fillText(lines[i], (canvas.width / 2) + 6, height + 6);
-        ctx.fillStyle = 'white';
+        ctx.fillStyle = 'RANDOM';
         ctx.fillText(lines[i], canvas.width / 2, height);
       }
       return canvas.toBuffer();
