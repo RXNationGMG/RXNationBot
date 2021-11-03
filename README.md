@@ -30,6 +30,7 @@ Feel Free To Make A Pull Request On It :)
 # Setup
 If u want to self host it by yourself u'll need
 
+A VPS Server! [If U Want It]
 NodeJS v12 Install It Here!
 
 `REQUIRED!`
@@ -38,9 +39,11 @@ NodeJS v12 Install It Here!
 
 [64 Bit](https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi)
 
-After Installing Node.Js Download This Repository On Your Desktop Or In Your Android Device!
+After Installing Node.js Download This Repository On Your Desktop Or In Your Android Device!
 
-After Installing The Repository Extract It! And Go to config.js and put ur token in there! **DO NOT SHARE IT CUZ IT WILL LIKELY GO HACKED!** 
+After Installing The Repository Extract It! And Go to config.js and put ur token in there! 
+
+**NOTE! DO NOT SHARE IT OK** 
 
 After that add ur prefix In there and after going to config.js go to config.yml for emoji set!
 
@@ -52,6 +55,15 @@ After typing `npm i` type `node index.js`
 
 **NOW UR DONE SELF HOSTING THE BOT!!**
 
+# Self-Hosting On Termux
+```
+Use This Cmds:
+git clone https://github.com/RXNationGMG/RXNationBot.git
+cd RXNationBot
+npm i
+node .
+```
+Make Sure U setup the bot token in config.js your prefix and setup the emojis & botlogs on config.yml to run it normally!
 
 # Host Your bot on other platform
 Just Go To The Links :)
