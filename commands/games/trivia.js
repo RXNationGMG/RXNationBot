@@ -69,12 +69,12 @@ module.exports = {
     async function generateClueCard(question) {
       const canvas = createCanvas(1280, 720);
       const ctx = canvas.getContext('2d');
-      ctx.fillStyle = '#030e78';
+      ctx.fillStyle = 'RANDOM';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
       ctx.fillStyle = 'white';
-      ctx.font = '62px Korinna';
+      ctx.font = '62px Korrina';
       const lines = await wrapText(ctx, question.toUpperCase(), 813);
       const topMost = (canvas.height / 2) - (((52 * lines.length) / 2) + ((20 * (lines.length - 1)) / 2));
       for (let i = 0; i < lines.length; i++) {
