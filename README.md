@@ -31,6 +31,7 @@ Feel Free To Make A Pull Request On It :)
 If u want to self host it by yourself u'll need
 
 A VPS Server! [If U Want It]
+
 NodeJS v12 Install It Here!
 
 `REQUIRED!`
