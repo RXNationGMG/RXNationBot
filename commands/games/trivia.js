@@ -2,7 +2,7 @@ const request = require('node-superfetch');
 const { createCanvas, registerFont } = require('canvas');
 const path = require('path');
 const { wrapText } = require('../../functions.js');
-registerFont(path.join('Korrina.otf'), { family: 'Korinna' });
+registerFont(path.join('Korrina.otf'), { family: 'Korrina' });
 
 module.exports = {
   config: {
