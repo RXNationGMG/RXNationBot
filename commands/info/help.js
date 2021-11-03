@@ -3,7 +3,7 @@ const { readdirSync } = require("fs");
 const db = require('quick.db');
 const { stripIndents } = require("common-tags");
 const { cyan } = require("../../JSON/colours.json");
-const { PREFIX } = require('../../config');
+const { PREFIX } = require('../../config.js');
 
 module.exports = {
     config: {
