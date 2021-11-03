@@ -25,7 +25,7 @@ module.exports = {
       songName = songName.replace(/lyrics|lyric|lyrical|official music video|\(official music video\)|audio|official|official video|official video hd|official hd video|offical video music|\(offical video music\)|extended|hd|(\[.+\])/gi, "");
 
     const sentMessage = await message.channel.send(
-      '🎵 Searching for lyrics please wait...'
+      '<a:backup:892076096084901919> Searching For Lyrics Please Wait...'
     );
 
     let url = `https://api.genius.com/search?q=${encodeURI(songName)}`;
