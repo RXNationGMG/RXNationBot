@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js');
-const { GENIUS_API_KEY } = require('../../config');
+const { GENIUS_API_KEY } = require('../../config.js');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio')
 
