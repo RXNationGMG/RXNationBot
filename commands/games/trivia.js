@@ -50,10 +50,10 @@ module.exports = {
       }
       const answer = question.answer.replace(/<\/?i>/gi, '*');
       ops.games.delete(message.channel.id);
-      if (!messages.size) return message.channel.send(`**Time Up, The Answer Was \`${answer}\`!**`);
+      if (!messages.size) return message.channel.send(`**Time Up, The Answer Was: \`${answer}\`!**`);
       const win = messages.first().content.toLowerCase() === answer.toLocaleLowerCase();
-      if (!win) return message.channel.send(`**The Answer Was ${answer}!**`);
-      return message.channel.send(`**Correct Answer!**`);
+      if (!win) return message.channel.send(`**The Answer Was: ${answer}!**`);
+      return message.channel.send(`**Correct Answer!!**`);
     } catch (err) {
       console.log(err)
       ops.games.delete(message.channel.id);
@@ -69,7 +69,7 @@ module.exports = {
     async function generateClueCard(question) {
       const canvas = createCanvas(1280, 720);
       const ctx = canvas.getContext('2d');
-      ctx.fillStyle = 'RANDOM';
+      ctx.fillStyle = '#05e2ff';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
