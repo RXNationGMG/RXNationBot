@@ -1,4 +1,4 @@
-const { firstUpperCase } = require('../../functions');
+const { firstUpperCase } = require('../../functions.js');
 const displaySuits = {
 	spades: '♠',
 	diamonds: '♦',
