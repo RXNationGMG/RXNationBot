@@ -35,7 +35,7 @@ module.exports = {
                 .setColor("RANDOM")
             message.channel.send(emb);
         } catch (err) {
-            message.react("⚠");
+            message.react("❌");
             var emb = new MessageEmbed()
                 .setTitle('Result')
                 .setDescription(`\`\`\`js` + '\n' + clean(err) + `\n` + `\`\`\``)
