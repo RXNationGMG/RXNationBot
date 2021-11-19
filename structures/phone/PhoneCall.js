@@ -1,4 +1,4 @@
-const { shorten, stripInvites, verify } = require('../../functions');
+const { shorten, stripInvites, verify } = require('../../functions.js');
 const db = require('quick.db');
 const { PREFIX } = require('../../config.js');
 const { stripIndents } = require('common-tags');
