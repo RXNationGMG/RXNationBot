@@ -1,4 +1,4 @@
-const Card = require('./Card');
+const Card = require('./Card.js');
 const suits = ['spades', 'hearts', 'diamonds', 'clubs'];
 const faces = ['Jack', 'Queen', 'King'];
 const { shuffle } = require('../../functions.js');
