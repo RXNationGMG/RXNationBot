@@ -39,7 +39,7 @@ module.exports = {
 
       if (a === channel.id) {
         return message.channel.send(
-          "**<a:deny:892076004183506954>T his Channel is Already Set As Welcome Channel**"
+          "**<a:deny:892076004183506954> This Channel is Already Set As Welcome Channel**"
         );
       } else {
         bot.guilds.cache
