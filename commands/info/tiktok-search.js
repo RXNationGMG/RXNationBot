@@ -22,7 +22,7 @@ module.exports = {
                     dynamic: true
                 }))
                 .setColor("RANDOM")
-                .setTitle(`${out.displayName} Tiktok Profile`)
+                .setTitle(`${out.displayName} Tiktok Profile!`)
                 .setURL(out.profile)
                 .setThumbnail(out.avatars.medium)
                 .setDescription(`
@@ -39,7 +39,7 @@ module.exports = {
         })
         .catch(e => {
             console.log(e)
-            return message.channel.send("<a:deny:892076004183506954> **| No results were found!**");
+            return message.channel.send("<a:deny:892076004183506954> **| No results were found! | This Usually Caused By A Package Error! Maybe...**");
         });
     }
 }
