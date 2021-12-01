@@ -382,7 +382,7 @@ bot.on('guildMemberAdd', async member => {
     ctx.drawImage(avatar, 25, 25, 200, 200);
 
     const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'Welcome2.png');
-	member.guild.channels.cache.get(channel => channel.name === '〔👋〕Welcome').send(`Welcome to the server, ${member}! :D`, attachment);  // U Need to Modify This: channel => channel.name === '〔👋〕Welcome' [IDK IF ITS GONNA WORK]
+	member.guild.channels.cache.get(channel => channel.name === '〔👋〕welcome').send(`Welcome to the server, ${member}! :D`, attachment);  // U Need to Modify This: channel => channel.name === '〔👋〕welcome' [IDK IF ITS GONNA WORK]
 });
 
 const express = require("express");
