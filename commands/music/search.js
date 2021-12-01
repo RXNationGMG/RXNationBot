@@ -115,10 +115,10 @@ module.exports = {
                 else {
                     const embed = new MessageEmbed()
                         .setColor("RANDOM")
-                        .setTitle("Added To Queue")
+                        .setTitle("<a:check:892071687250673664> Added To Queue")
                         .setThumbnail(song.thumbnail)
                         .setTimestamp()
-                        .setDescription(`<a:check:892071687250673664> **${song.title}** has been added to queue!`)
+                        .setDescription(`**${song.title}** has been added to queue!`)
                         .setFooter(message.member.displayName, message.author.displayAvatarURL());
                     message.channel.send(embed)
                 }
@@ -149,10 +149,10 @@ module.exports = {
 
             const embed = new MessageEmbed()
                 .setColor("RANDOM")
-                .setTitle('Now Playing\n')
+                .setTitle('🎧 Now Playing\n')
                 .setThumbnail(song.thumbnail)
                 .setTimestamp()
-                .setDescription(`🎵 Now playing:\n **${song.title}** 🎵`)
+                .setDescription(`Now playing:\n **${song.title}**`)
                 .setFooter(msg.member.displayName, msg.author.displayAvatarURL());
             serverQueue.textChannel.send(embed);
 
