@@ -3,7 +3,7 @@ module.exports = {
         name: 'join',
         aliases: ['joinvc'],
         category: 'music',
-        description: 'Join The User\'s VC **NOTE! this cmd is kinda brokej so dont use it! tnks!!**',
+        description: 'Join The User\'s VC **NOTE! this cmd is kinda broken so dont use it! tnks!!**',
         usage: ' ',
         accessableby: 'everyone'
     },
