@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "rwallpaper",
         noalias: [''],
-        category: "anim",
+        category: "nsfw",
         description: "Shows random wallpaper image",
         usage: "",
         accessableby: "everyone"
