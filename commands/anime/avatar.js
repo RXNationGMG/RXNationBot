@@ -4,10 +4,10 @@ const superagent = require('superagent');
 
 module.exports = {
     config: {
-        name: "ravatar",
+        name: "avatar",
         noalias: [''],
         category: "anime",
-        description: "Shows random ravatar image",
+        description: "Shows random avatar image",
         usage: "",
         accessableby: "everyone"
     },
@@ -15,10 +15,10 @@ module.exports = {
 
   let victim = message.mentions.users.first() || (args.length > 0 ? message.users.cache.filter(e => e.username.toLowerCase().includes(args.join(" ").toLowerCase())).first(): message.author) || message.author;
   const { body } = await superagent
-    .get("https://nekos.life/api/v2/img/ravatar");
+    .get("https://nekos.life/api/v2/img/avatar");
         const embed = new MessageEmbed()
         .setColor("FF0000")
-        .setTitle("Here's your RAVATAR 🤗")
+        .setTitle("Here's your AVATAR 🤗")
         .setImage(body.url)
         .setTimestamp()
         .setFooter('© RXNationBot');
