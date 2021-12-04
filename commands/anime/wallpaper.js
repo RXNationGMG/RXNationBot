@@ -6,8 +6,8 @@ module.exports = {
     config: {
         name: "wallpaper",
         noalias: [''],
-        category: "emojis",
-        description: "Shows random wallpaper image",
+        category: "anime",
+        description: "Shows random Wallpaper image",
         usage: "",
         accessableby: "everyone"
     },
@@ -18,7 +18,7 @@ module.exports = {
     .get("https://nekos.life/api/v2/img/wallpaper");
         const embed = new MessageEmbed()
         .setColor("FF0000")
-        .setTitle("Here's your WALLPAPER 🤗")
+        .setTitle("Here's your Wallpaper 🤗")
         .setImage(body.url)
         .setTimestamp()
         .setFooter('© RXNationBot');
