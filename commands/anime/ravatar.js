@@ -4,7 +4,7 @@ const superagent = require('superagent');
 
 module.exports = {
     config: {
-        name: "avatar",
+        name: "ravatar",
         noalias: [''],
         category: "anime",
         description: "Shows random Avatar image",
