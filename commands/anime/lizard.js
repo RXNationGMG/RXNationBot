@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "lizard",
         noalias: [''],
-        category: "emojis",
+        category: "anime",
         description: "Shows random lizard image",
         usage: "",
         accessableby: "everyone"
