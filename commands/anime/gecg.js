@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "gecg",
         noalias: [''],
-        category: "emojis",
+        category: "anime",
         description: "Shows random gecg image",
         usage: "",
         accessableby: "everyone"
