@@ -25,7 +25,7 @@ module.exports = {
         try {
             res = await fetch(url).then(url => url.json());
         } catch (e) {
-            return message.reply("I couldn't find that account... :(")
+            return message.reply("<a:deny:892076004183506954> Uh Oh! I Couldn't Find That Account :( | Maybe A Error Occurred?")
                 .then(m => m.delete(5000));
         }
 
