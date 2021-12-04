@@ -4,9 +4,9 @@ const superagent = require('superagent');
 
 module.exports = {
     config: {
-        name: "emoji-meow",
+        name: "meow",
         noalias: [''],
-        category: "emojis",
+        category: "anime",
         description: "Shows random meow image",
         usage: "",
         accessableby: "everyone"
