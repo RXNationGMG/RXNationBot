@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "hug",
         noalias: [''],
-        category: "emojis",
+        category: "anime",
         description: "Shows random hug image",
         usage: "",
         accessableby: "everyone"
