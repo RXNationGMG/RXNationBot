@@ -15,7 +15,7 @@ module.exports = {
 
   let victim = message.mentions.users.first() || (args.length > 0 ? message.users.cache.filter(e => e.username.toLowerCase().includes(args.join(" ").toLowerCase())).first(): message.author) || message.author;
   const { body } = await superagent
-    .get("https://nekos.life/api/v2/img/nekogif");
+    .get("https://purrbot.site/img/sfw/neko/gif/neko_[Math.floor(Math.random().gif");
         const embed = new MessageEmbed()
         .setColor("FF0000")
         .setTitle("Here's your Neko Gif 🤗")
