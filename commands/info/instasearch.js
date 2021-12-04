@@ -15,7 +15,7 @@ module.exports = {
 
         if (!name) {
             return message.reply("Maybe it's useful to actually search for someone...!")
-                .then(m => m.delete(5000));
+                .then(m => m.delete({ timeout: 5000 }));
         }
 
         const url = `https://instagram.com/${name}/?__a=1`;
