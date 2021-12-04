@@ -7,7 +7,7 @@ module.exports = {
         name: "avatar",
         noalias: [''],
         category: "anime",
-        description: "Shows random avatar image",
+        description: "Shows random Avatar image",
         usage: "",
         accessableby: "everyone"
     },
@@ -18,7 +18,7 @@ module.exports = {
     .get("https://nekos.life/api/v2/img/avatar");
         const embed = new MessageEmbed()
         .setColor("FF0000")
-        .setTitle("Here's your AVATAR 🤗")
+        .setTitle("Here's your Avatar 🤗")
         .setImage(body.url)
         .setTimestamp()
         .setFooter('© RXNationBot');
