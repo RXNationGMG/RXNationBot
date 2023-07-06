@@ -1,92 +1,77 @@
 <h1 align="center">RXNationBot</h1>
 <p align="center">
-  <a href="https://github.com/RXNationGMG/RXNationBot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RXNationGMG&repo=RXNationBot&theme=dark)](https://github.com/RXNationGMG/RXNationBot"
-  <a href="https://discord.gg/g37DAPMnPQ"><img src="https://img.shields.io/discord/889339328470323212"></a>
-  <a href="#"><img src="https://www.codefactor.io/repository/github/RXNationGMG/RXNationBot/badge" /></a>
-  <a href="https://github.com/RXNationGMG/RXNationBot/issues"><img src="https://img.shields.io/github/issues/RXNationGMG/RXNationBot?style=flat" /></a>
-  <a href="https://github.com/RXNationGMG/RXNationBot/stargazers"><img src="https://img.shields.io/github/stars/RXNationGMG/RXNationBot?style=flat" /></a>
+  <a href="https://github.com/RXNationGMG/RXNationBot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RXNationGMG&repo=RXNationBot&theme=dark)](https://github.com/RXNationGMG/RXNationBot" alt="GitHub Repo"></a>
+  <a href="https://discord.gg/g37DAPMnPQ"><img src="https://img.shields.io/discord/889339328470323212" alt="Discord"></a>
+  <a href="#"><img src="https://www.codefactor.io/repository/github/RXNationGMG/RXNationBot/badge" alt="CodeFactor"></a>
+  <a href="https://github.com/RXNationGMG/RXNationBot/issues"><img src="https://img.shields.io/github/issues/RXNationGMG/RXNationBot?style=flat" alt="Issues"></a>
+  <a href="https://github.com/RXNationGMG/RXNationBot/stargazers"><img src="https://img.shields.io/github/stars/RXNationGMG/RXNationBot?style=flat" alt="Stars"></a>
+</p>
 
-A Discord Bot With 190 or 191 Commands! 🎉
+<p align="center">
+  A Discord Bot with 190 or 191 Commands! 🎉
+</p>
 
-# Features
-•190 Or 191 Commands!
+## Features
+- 190 or 191 Commands!
+- Music Bot!
+- Giveaway Bot!
+- NSFW!
+- Welcome Channel! (Still Have Bugs)
+- New Commands! (Coming Soon)
+- & More!
 
-•Music Bot!
+## Note ⚠️
+This Bot is still under development, and some features are non-functional or in beta. 
+Feel free to make a pull request if you encounter any issues.
 
-•Giveaway Bot!
+## Setup
+If you want to self-host the bot, follow these steps:
 
-•NSFW!
+### Prerequisites
+- VPS Server (optional)
+- Node.js v12 or higher ([32-bit](https://nodejs.org/dist/v12.13.0/node-v12.13.0-x86.msi) or [64-bit](https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi))
 
-•Welcome Channel! [Still Have Bugs]
+### Installation
+1. Download this repository to your desktop or Android device.
+2. Extract the repository.
+3. Open the `config.js` file and add your bot token.
+   **Note: Do not share your token.**
+4. Set your desired prefix in the `config.js` file.
+5. Configure emojis in the `config.yml` file.
+6. Run the following command to install dependencies:
+   ```
+   npm install
+   ```
+7. Start the bot:
+   ```
+   node index.js
+   ```
 
-•New Commands! [Very Soon]
-
-•& A Lot More!
-
-# Note ⚠️
-This Bot Is Still Under Development And I'm Still Fixing Bugs!
-Feel Free To Make A Pull Request On It :)
-
-# Setup
-If u want to self host it by yourself u'll need
-
-A VPS Server! [If U Want It]
-
-NodeJS v12 Install It Here!
-
-`REQUIRED!`
-
-[32 Bit](https://nodejs.org/dist/v12.13.0/node-v12.13.0-x86.msi)
-
-[64 Bit](https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi)
-
-After Installing Node.js Download This Repository On Your Desktop Or In Your Android Device!
-
-After Installing The Repository Extract It! And Go to config.js and put ur token in there! 
-
-**NOTE! DO NOT SHARE IT OK** 
-
-After that add ur prefix In there and after going to config.js go to config.yml for emoji set!
-
-& After that
-
-Type `npm i` to flood your hard drive with code that's 99% useless
-
-After typing `npm i` type `node index.js`
-
-**NOW UR DONE SELF HOSTING THE BOT!!**
-
-# Self-Hosting On Termux
+### Self-Hosting on Termux
+If you're using Termux, run the following commands:
 ```
-Use This Cmds:
 git clone https://github.com/RXNationGMG/RXNationBot.git
 cd RXNationBot
-npm i
+npm install
 node .
 ```
-Make Sure U setup the bot token in config.js your prefix and setup the emojis & botlogs on config.yml to run it normally!
+Make sure you set up the bot token, prefix, and emojis in the `config.js` and `config.yml` files to run it normally.
 
-# Host Your bot on other platform
-Just Go To The Links :)
+### Hosting on Other Platforms
+Refer to the following links for hosting on specific platforms:
+- [Glitch](https://glitch.com): [Remix on Glitch](https://glitch.com/edit/#!/import/github/RXNationGMG/RXNationBot)
+- [Repl.it](https://repl.it): [Host on Repl.it](https://replit.com/github/RXNationGMG/RXNationBot)
 
-If u have trouble hosting the bot in [glitch](https://glitch.com) type this in the console: `pkill node`
-It may fix the problem I think...
+Please add your token and prefix in the `config.js` file, and configure the emojis in the `config.yml` file.
 
-[![Remix On Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/RXNationGMG/RXNationBot)<br><br>
-[![Host On Repl.it](https://repl.it/badge/github/tzt345/Ultimate-Discord-Bot)](https://replit.com/github/RXNationGMG/RXNationBot)
-
-Just add your token and your prefix in config.js and go to confg.yml for emoji set!
-
-# Invite My Bot!
+## Invite My Bot!
 [Invite My Discord Bot Here!](https://discord.com/oauth2/authorize?client_id=818490120570929182&permissions=8&scope=bot)
 
-# Support
-[Join My Official Discord Server!](https://discord.gg/g37DAPMnPQ)
+## Support
+- [Join My Official Discord Server!](https://discord.gg/g37DAPMnPQ)
+- [Subscribe to My YouTube Channel!](https://youtube.com/c/RXNationGaming)
+- [Donate to Me on PayPal!](https://rxnationgaming.cf/donate)
 
-[Subscribe To My Youtube Channel!](https://youtube.com/c/RXNationGaming)
+Thank you for using my repository! Don't forget to leave a star if you find it useful. Feel free to reach out if you have any questions or feedback.
 
-[Donate Me On PayPal!](https://rxnationgaming.cf/donate)
-
-> Thank U For Using My Repository! Make Sure You Leave A Star On It! tnksss!! <3
-
-**BTW DONT SKID THIS CODE TNKS!**
+**By the way, please refrain from skidding this code. Thank you!**
