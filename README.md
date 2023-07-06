@@ -8,14 +8,14 @@
 </p>
 
 <p align="center">
-  A Discord Bot with 190 or 191 Commands! 🎉
+  A Discord Bot with 190 Commands! 🎉
 </p>
 
 ## Features
-- 190 or 191 Commands!
+- 190 Commands!
 - Music Bot!
 - Giveaway Bot!
-- NSFW!
+- NSFW! (Disabled By Default)
 - Welcome Channel! (Still Have Bugs)
 - New Commands! (Coming Soon)
 - & More!
