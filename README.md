@@ -1,9 +1,12 @@
 <h1 align="center">RXNationBot</h1>
 <p align="center">
   <a href="https://github.com/RXNationGMG/RXNationBot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RXNationGMG&repo=RXNationBot&theme=dark)](https://github.com/RXNationGMG/RXNationBot" alt="GitHub Repo"></a>
+  
   <a href="https://discord.gg/g37DAPMnPQ"><img src="https://img.shields.io/discord/889339328470323212" alt="Discord"></a>
   <a href="#"><img src="https://www.codefactor.io/repository/github/RXNationGMG/RXNationBot/badge" alt="CodeFactor"></a>
+  
   <a href="https://github.com/RXNationGMG/RXNationBot/issues"><img src="https://img.shields.io/github/issues/RXNationGMG/RXNationBot?style=flat" alt="Issues"></a>
+  
   <a href="https://github.com/RXNationGMG/RXNationBot/stargazers"><img src="https://img.shields.io/github/stars/RXNationGMG/RXNationBot?style=flat" alt="Stars"></a>
 </p>
 
