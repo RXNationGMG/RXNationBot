@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const PlayStore = require("google-play-scraper");
+const cheerio = require("cheerio");
 
 module.exports = {
   config: {
@@ -14,7 +15,9 @@ module.exports = {
     try {
       if (!args[0]) {
         return message.channel.send(
-          `<a:deny:892076004183506954> | Please provide the name of the application to search, ${message.author.username}!`
+          "<a:deny:892076004183506954> | Please provide the name of the application to search, " +
+            message.author.username +
+            "!"
         );
       }
 
@@ -25,29 +28,33 @@ module.exports = {
 
       if (searchData.length === 0) {
         return message.channel.send(
-          `No application found, ${message.author.username}!`
+          "<a:deny:892076004183506954> | No application found, " + message.author.username + "!"
         );
       }
 
       const app = searchData[0];
+      const $ = cheerio.load(app.summary);
+      const cleanedDescription = $.text();
 
       const embed = new Discord.MessageEmbed()
         .setColor("RANDOM")
         .setThumbnail(app.icon)
         .setURL(app.url)
         .setTitle(app.title)
-        .setDescription(app.summary)
+        .setDescription(cleanedDescription)
         .addField("App Price Status", app.free ? "Free" : "Paid", true) // Check if the app is free or paid
         .addField("Developer", app.developer, true)
         .addField("Score", app.scoreText, true)
-        .setFooter(`Requested By ${message.author.username}`)
+        .setFooter("Requested By " + message.author.username)
         .setTimestamp();
 
       return message.channel.send(embed);
     } catch (error) {
       console.error(error);
       return message.channel.send(
-        `<a:deny:892076004183506954> | An error occurred while searching for the application, ${message.author.username}!`
+        "<a:deny:892076004183506954> | An error occurred while searching for the application, " +
+          message.author.username +
+          "!"
       );
     }
   }
