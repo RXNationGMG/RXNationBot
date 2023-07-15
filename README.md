@@ -10,6 +10,13 @@
   <a href="https://github.com/RXNationGMG/RXNationBot/stargazers"><img src="https://img.shields.io/github/stars/RXNationGMG/RXNationBot?style=flat" alt="Stars"></a>
 </p>
 
+
+WARNING!
+
+THIS RELEASE IS NO LONGER MAINTAINED, PLEASE REFRAIN FROM USING THIS RELEASE & THIS CODE IS SERIOUSLY TOO DUMB, THANK YOU!
+
+
+
 <p align="center">
   A Discord Bot with 190 Commands! 🎉
 </p>
